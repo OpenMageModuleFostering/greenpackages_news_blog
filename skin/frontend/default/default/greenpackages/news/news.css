@@ -1,0 +1,8 @@
+.block-news .block-content{}
+.block-news li  {list-style:none;padding:8px;}
+.block-news li a {text-decoration:none;color:#444;}
+.block-news li a:hover{color:#000;}
+.block-news .empty a{color:#444;}
+.noticia .content{width:75%;float:left;}
+.noticia .image{width:18%;float:right;margin-left:15px;border:1px solid #e4e4e4;}
+.cuerpo  .msgNoResultados{}

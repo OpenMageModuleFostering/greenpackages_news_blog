@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Greenpackages_News_Blog</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension adds a news &amp;amp; innovations section on the store.</summary>
+    <description>Using this extension you can easily add news with start and end date and upload a image on each news. For news content you can easily enter or modify your text uisng wysiwyg editor.&#xD;
+Features:&#xD;
+1. No core file changed.&#xD;
+2. Small useful extension for merchants.&#xD;
+3. Works on Magento 1.6 and above.&#xD;
+</description>
+    <notes>Using this extension you can easily add news with start and end date and upload a image on each news. For news content you can easily enter or modify your text uisng wysiwyg editor.&#xD;
+Features:&#xD;
+1. No core file changed.&#xD;
+2. Small useful extension for merchants.&#xD;
+3. Works on Magento 1.6 and above.&#xD;
+</notes>
+    <authors><author><name>Greenpackages</name><user>Greenpackages</user><email>support@magentogreenpackages.com</email></author></authors>
+    <date>2013-05-15</date>
+    <time>18:47:37</time>
+    <contents><target name="magelocal"><dir name="GreenPackages"><dir name="News"><dir name="Block"><dir name="Adminhtml"><dir name="News"><dir name="Edit"><file name="Form.php" hash="d02a858e968838d39ca5d3c93550a90e"/><dir name="Tab"><file name="Form.php" hash="b2daf4b2faeb59bdaa75eb2b11ad9e65"/></dir><file name="Tabs.php" hash="a3070c166fde08cd7c8a7e17a17fba65"/></dir><file name="Edit.php" hash="e2d93a33b583e94f4decdc05e744c2b4"/><file name="Grid.php" hash="e64ea03302404bc2f1bea45ba24f0f6b"/><dir name="Renderer"><file name="Image.php" hash="895665e01ae1ebe61e98574b1d5c0563"/></dir></dir><file name="News.php" hash="e4ef39ee8595110a1e98756d395ad3ae"/></dir><file name="Breadcrumbs.php" hash="4f0e85e5d6fd4371d4096b04c1c2c075"/><file name="Detalle.php" hash="8d4614543d61d34cd8c7c7298453b558"/><file name="Links.php" hash="7169d394fa4393e1d9f2a7242ad85eb2"/><file name="Listado.php" hash="c9741b475a22ca2d4203222e37cd166e"/><file name="News.php" hash="79c5546d975e3e7ceda22212566cc19a"/><file name="Toolbar.php" hash="b4b3274abd3457cbe721efa08ea93266"/></dir><dir name="Helper"><file name="Data.php" hash="5dd6eac5bb029501ca2ca47aa6b46f3e"/></dir><dir name="Model"><dir name="Mysql4"><dir name="News"><file name="Collection.php" hash="b7cf7322f417411388f30adad8d01a64"/></dir><file name="News.php" hash="1cef8dee339ee8e2ec9821a3e0f02697"/></dir><file name="News.php" hash="7e498f5067576f330c0cbce48e71c78e"/><file name="Status.php" hash="b1fd41246e165ff51b249d57a46f6708"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="NewsController.php" hash="0155b126bb570c1876984cbc88928917"/></dir><file name="DetalleController.php" hash="97f1ba1366df5030be59ad7fa5a836da"/><file name="ListadoController.php" hash="2e89ee76f9d33ba67f6bc59cf9dae9d5"/></dir><dir name="etc"><file name="config.xml" hash="5fc31403a3f3595dc5a2a68bad526616"/></dir><dir name="sql"><dir name="news_setup"><file name="mysql4-install-0.1.0.php" hash="608c85d42b4aea794e1bab4446a92b7b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="GreenPackages_News.xml" hash="1a7af92d1616c6206f93d6cd96f0dbf9"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="news.xml" hash="67660e74ee5938d7329704ca837b1a03"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="news.xml" hash="bc931ef8049097d00f3d39728552412d"/></dir><dir name="template"><dir name="news"><file name="detalle.phtml" hash="0d3f0cf68eb9b7b4286dbf19ce1ef580"/><file name="left.phtml" hash="70c181cfb983f1660e6030a6312e2681"/><file name="listado.phtml" hash="d75c5e3e25c35c853374f56c854e730b"/><file name="toolbar.phtml" hash="a169bbdf61685f5afcc327945909c766"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="greenpackages"><dir name="news"><file name="news.css" hash="221c9fe5a389bd694df3f5da4aed32fc"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.3.0</max></php></required></dependencies>
+</package>

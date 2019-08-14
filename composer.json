@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Greenpackages_News_Blog",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This extension adds a news &amp; innovations section on the store.",
+    "authors": [
+    {
+        "name": "Greenpackages",
+        "email": "support@magentogreenpackages.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
