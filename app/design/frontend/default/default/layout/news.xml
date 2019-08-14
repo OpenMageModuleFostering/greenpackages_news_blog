@@ -9,14 +9,21 @@
 			<action method="addCss"><stylesheet>greenpackages/news/news.css</stylesheet></action>
 		</reference>
 		<reference name="top.links">
-            <action method="addLink" translate="label" module="news"><name>News Blog</name><path>news/listado</path><label>News Blog</label><prepare>true</prepare></action>
+            <action method="addLink" translate="label" module="news" ifconfig="aheadgeeks_options/settings/show_in_toplinks"><name>News Blog</name><path>news/listado</path><label>News Blog</label><prepare>true</prepare></action>
        </reference>
-		<reference name="left">
-		  <block type="news/listado" name="news.left" template="news/left.phtml"/>
+		<reference name="left" >
+		  <block ifconfig="aheadgeeks_options/settings/sidebar_show" type="news/listado" name="news.left" >
+		  <action method="setTemplate" ifconfig="aheadgeeks_options/settings/sidebar_show_left"><template>news/sidebar.phtml</template></action>
+		  </block>
+		</reference>
+		<reference name="right" >
+		  <block ifconfig="aheadgeeks_options/settings/sidebar_show" type="news/listado" name="news.right" >
+		  <action method="setTemplate" ifconfig="aheadgeeks_options/settings/sidebar_show_right"><template>news/sidebar.phtml</template></action>
+		  </block>
 		</reference>
     </default>
 	<news_listado_index>
-		 <reference name="head">
+		<reference name="head">
 			<action method="setTitle" translate="title" module="news"><title>News Blog</title></action>
 		</reference>
 		<reference name="content">
@@ -31,4 +38,12 @@
 		  <block type="news/detalle" name="news.detalle" template="news/detalle.phtml"/>
 		</reference>
 	</news_detalle_index>
+	<customer_account>
+        <!-- Mage_Newsletter -->
+        <reference name="customer_account_navigation" >
+            <action method="addLink" translate="label" module="news" ifconfig="aheadgeeks_options/settings/show_in_accountnavigation"><name>news</name><path>news/listado/</path><label>News Blog</label></action>
+        </reference>
+        <remove name="news.left"/>
+    </customer_account>
+
 </layout> 

@@ -59,6 +59,11 @@
 						<sort_order>0</sort_order>
 						<action>news/adminhtml_news</action>
 					</items>
+					<manage_settings module="news">
+						<title>Manage Settings</title>
+						<sort_order>1</sort_order>
+						<action>adminhtml/system_config/edit/section/aheadgeeks_options</action>
+					</manage_settings>
 				</children>
 			</news>
 		</menu>
@@ -69,6 +74,17 @@
 				</all>
 				<admin>
 					<children>
+						<system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <aheadgeeks_options>
+                                            <title>Convertware Settings</title>
+                                        </aheadgeeks_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
 						<GreenPackages_News>
 							<title>News Module</title>
 							<sort_order>10</sort_order>
@@ -131,4 +147,15 @@
             </news>
         </helpers>
     </global>
+	<default>
+       <aheadgeeks_options>
+            <settings>
+                <sidebar_show_left>1</sidebar_show_left>
+				<sidebar_show_right>0</sidebar_show_right>
+                <show_in_toplinks>1</show_in_toplinks>
+                <show_in_accountnavigation>1</show_in_accountnavigation>
+            </settings>
+            
+        </aheadgeeks_options>
+    </default>
 </config>
