@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Greenpackages_News_Blog",
+    "name": "openmage-module-fostering\/greenpackages_news_blog",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension adds a news &amp; innovations section on the store.",
     "authors": [
